@@ -59,8 +59,8 @@ The application uses a dedicated Bluetooth manufacturer identifier so the scanne
               +---------+---------+
                         |
                    SosService
-                 /             \\
-                /               \\
+                 /             \
+                /               \
         BLE Scanner          BLE Advertiser
              |                    |
        SOS Detection          SOS Broadcast
