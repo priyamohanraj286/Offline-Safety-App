@@ -46,10 +46,10 @@ A foreground Android service maintains background BLE monitoring so that SOS ale
 The application uses a dedicated Bluetooth manufacturer identifier so the scanner can distinguish its SOS packets from unrelated BLE advertisements.
 
 ## System Architecture
+```text
 
 
-
-&#x20;                Android Application
+              Android Application
                         |
               +---------+---------+
               |                   |
@@ -70,7 +70,7 @@ The application uses a dedicated Bluetooth manufacturer identifier so the scanne
 
 
 
-
+```
 
 ## SOS Communication Flow
 
