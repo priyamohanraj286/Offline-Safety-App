@@ -48,7 +48,8 @@ The application uses a dedicated Bluetooth manufacturer identifier so the scanne
 ## System Architecture
 
 
-                 Android Application
+
+&#x20;                Android Application
                         |
               +---------+---------+
               |                   |
@@ -68,31 +69,37 @@ The application uses a dedicated Bluetooth manufacturer identifier so the scanne
       Notification + Sound
 
 
+
+
+
 ## SOS Communication Flow
 
 ```text
 Sender Device
-     |
-     | Press SOS
-     v
+|
+| Press SOS
+v
 SosService
-     |
-     | BLE Advertising
-     v
+|
+| BLE Advertising
+v
 Nearby Devices
-     |
-     | BLE Scan
-     v
+|
+| BLE Scan
+v
 Manufacturer ID Check
-     |
-     | Valid SOS packet
-     v
+|
+| Valid SOS packet
+v
 SOS Alert
-     |
-     +----> Notification
-     |
-     +----> Alert Sound
+|
++----> Notification
+|
++----> Alert Sound
+
 ```
+
+
 
 ## Technology Stack
 
@@ -164,6 +171,4 @@ Recommended testing uses at least two BLE-capable Android devices.
 5. Grant the required Bluetooth permissions.
 6. Build and run the application.
 7. For SOS communication testing, use at least two compatible Android devices.
-
-
 
