@@ -70,7 +70,7 @@ The application uses a dedicated Bluetooth manufacturer identifier so the scanne
 
 ## SOS Communication Flow
 
-text
+```text
 Sender Device
      |
      | Press SOS
@@ -92,7 +92,7 @@ SOS Alert
      +----> Notification
      |
      +----> Alert Sound
-
+```
 
 ## Technology Stack
 
