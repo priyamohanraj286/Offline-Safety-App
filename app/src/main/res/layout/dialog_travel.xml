@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/trainName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Train Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/coachNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Coach Number"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/seatNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seat Number"
+        android:inputType="text" />
+
+</LinearLayout>
